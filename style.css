@@ -1,0 +1,111 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body & Layout */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header & Navigation */
+header {
+  background-color: #1e2a38;
+  color: white;
+  text-align: center;
+  padding: 2em 1em;
+}
+
+nav {
+  margin-top: 1em;
+}
+
+nav a {
+  margin: 0 1em;
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* Main Content */
+main {
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+/* Headings */
+h2 {
+  margin-top: 2em;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.4em;
+  color: #1e2a38;
+}
+
+/* Profile Picture */
+.profile-pic {
+  display: block;
+  margin: 1.5em auto;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  border: 3px solid #fff;
+  background-color: white;
+}
+
+/* Projects */
+.project {
+  background: #fff;
+  padding: 1em;
+  margin-top: 1em;
+  border-left: 5px solid #007BFF;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.project h3 {
+  margin-bottom: 0.3em;
+}
+
+.project a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Resume Button */
+.btn {
+  display: inline-block;
+  margin-top: 1em;
+  background: #007BFF;
+  color: white;
+  padding: 0.5em 1.2em;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5em;
+  background-color: #1e2a38;
+  color: #ccc;
+  margin-top: 2em;
+}
